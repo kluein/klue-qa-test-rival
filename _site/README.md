@@ -19,7 +19,7 @@ jekyll serve
     layout: post
     title: "Post Title"
     subtitle: "This is the post subtitle."
-    date: YYYY-MM-DD HH:MM:SS
+    date: YYYY-MM-DD HH:MM:SS # Make sure this date is in the past or else it won't show
     background: '/PATH_TO_IMAGE'
     ---
     ```
