@@ -32,6 +32,10 @@
         "startbootstrap-clean-blog": "5.1.0"
     },
     "devDependencies": {
-        "browser-sync": "2.29.3"
+        "browser-sync": "2.29.3",
+        "faker": "^5.5.3"
+    },
+    "scripts": {
+        "generate_random_post": "node new_random_post.js"
     }
 }
