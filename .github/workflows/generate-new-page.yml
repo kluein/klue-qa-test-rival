@@ -39,6 +39,7 @@ jobs:
           commit_message: Github Actions - Generate new Post
   build:
     runs-on: ubuntu-latest
+    needs: create-new-page-and-push
     steps:
         - name: Setup Ruby
           uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
