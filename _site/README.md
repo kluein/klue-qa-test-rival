@@ -10,7 +10,11 @@ jekyll serve
 
 ```
 
-## Create a new Post
+## Generate a quick Lorem Ipsum Post via Github Actions and Deploy
+1. Go to https://github.com/kluein/klue-qa-test-rival/actions/workflows/generate-new-page.yml
+2. Click on 'Run Workflow' and dispatch from `main`
+
+## Create a new Post Manually
 1. Create a new file in /_posts following the pattern of the templates
 2. For each post in the `_posts` directory, update the front matter. Example:
 
@@ -25,3 +29,15 @@ jekyll serve
     ```
 3. Build your site: `bundle exec jekyll serve`
 
+## Create a new Random Lorem Ipsum Post
+```
+yarn install
+npm run generate_random_post
+
+# Verify it worked locally
+bundle exec jekyll serve 
+
+git add *
+git commit -m 'New <date> Random Post'
+git push origin main
+```

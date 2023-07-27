@@ -3,7 +3,7 @@ email:              klueau
 description:        Klue QA Rival
 author:             KlueQA
 baseurl:            ""
-url:                ""
+url:                "https://test-rival.qa.klue.io"
 
 # Social Profiles
 # twitter_username:   SBootstrap
