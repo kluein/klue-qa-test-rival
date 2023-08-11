@@ -34,9 +34,6 @@ jobs:
         run: yarn install
       - name: Generate a random Jekyll Post
         run: npm run generate_random_post
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Github Actions - Generate new Post
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
