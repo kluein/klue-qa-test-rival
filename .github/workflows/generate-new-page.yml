@@ -56,6 +56,13 @@ jobs:
       - name: Upload artifact
       # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
+      - name: Get current date
+        id: date
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'Generated new random Post via Github Actions on ${{ env.DATE }}'
+          branch: 'main'
 
   # Deployment job
   deploy:
