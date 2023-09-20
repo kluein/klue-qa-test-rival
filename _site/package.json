@@ -11,20 +11,8 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/themes/clean-blog-jekyll",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues",
-        "email": "feedback@startbootstrap.com"
-    },
+    "homepage": "https://test-rival.qa.klue.io/",
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll.git"
-    },
     "dependencies": {
         "bootstrap": "4.6.0",
         "font-awesome": "4.7.0",
